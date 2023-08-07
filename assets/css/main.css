@@ -26548,6 +26548,8 @@ textarea.form-control-lg {
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
+  margin-top: 0.5rem !important;
+
 }
 
 .mb-3 {
@@ -39538,7 +39540,7 @@ span.spacer::before {
 }
 
 .checkout-form .input-field {
-  margin-bottom: 24px;
+  margin: 16px 0px;
 }
 .checkout-form .input-field label {
   font-weight: 600;
