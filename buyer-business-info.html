@@ -128,7 +128,7 @@
                             <li class="has-submenu"><a href="#">Buyer</a>
                                 <ul class="submenu-wrapper">                                
 
-                                    <li><a href="profile.html">Basic Information</a></li>
+                                    <li><a href="buyer-buyer-profile.html">Basic Information</a></li>
                                     <li><a href="buyer-bank-info.html">Bank Information</a></li>
                                     <li><a href="buyer-business-info.html">Business Information</a></li> 
                                     <li><a href="#">Logout</a></li>                                           
@@ -184,7 +184,7 @@
 
             <li class="has-submenu"><a href="#">Buyer</a>
                 <ul class="submenu-wrapper">
-                    <li><a href="profile.html">Basic Information</a></li>
+                    <li><a href="buyer-profile.html">Basic Information</a></li>
                     <li><a href="buyer-bank-info.html">Bank Information</a></li>
                     <li><a href="buyer-business-info.html">Business Information</a></li>
                     <li><a href="#">Logout</a></li>                                             
@@ -250,7 +250,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="breadcrumb-content-wrapper text-center position-relative z-3">
-                    <h1 class="text-white">Profile Information</h1>
+                    <h1 class="text-white">Business Information</h1>
                             <!-- <ol class="breadcrumb justify-content-center">
                                 <li class="breadcrumb-item text-white fw-500"><a href="index.html">Home</a></li>
                                 <li class="breadcrumb-item text-white fw-500">Page</li>
@@ -269,134 +269,119 @@
                 <!-- <a href="#" class="checkout-badge bg-primary-light rounded d-block">Returning customer?<strong> Click here to login</strong></a> -->
                 <div class="row">
 
-
-                    <div class="col-xl-4">
+                     <div class="col-xl-4">
 
                         <div class="checkout-box bg-white rounded mt-30">
                            <ul class="fs-md">                               
                                
-                            <li class="fw-500"> <a href="profile.html" class="btn outline-btn btn-md d-block active">Personal Information</a></li>
-                           <li class="mt-10 fw-500"> <a href="seller-bank-info.html" class="btn outline-btn btn-md d-block ">Bank Information</a> </li>
-                            <li class="mt-10 fw-500"><a href="seller-business-info.html" class="btn outline-btn btn-md d-block">Business Information</a> </li>
+                            <li class="fw-500"> <a href="buyer-profile.html" class="btn outline-btn btn-md d-block ">Personal Information</a></li>
+                           <li class="mt-10 fw-500"> <a href="buyer-bank-info.html" class="btn outline-btn btn-md d-block ">Bank Information</a> </li>
+                            <li class="mt-10 fw-500"><a href="buyer-business-info.html" class="btn outline-btn btn-md d-block active">Business Information</a> </li>
                             </ul>
                         </div>                   
                      </div>
 
 
-
                     <div class="col-xl-8">
                         <div class="checkout-box bg-white rounded mt-30">
-                            <h4 class="mb-3">Basic Information</h4>
+                            <h4 class="mb-3">Business Information</h4>
                             <span class="spacer"></span>
 
                             <!-- <form class="checkout-form mt-30"> -->
                               <div class="form-validation">
                                 <form class="form-valide checkout-form mt-30" action="#" method="post">
 
-                                     <div class="row">
-                                    
-
-                                    <div class="col-lg-6">
-
-                                        <div class="form-group row">         
-                                            <label class="fw-semibold text-secondary mb-2">Change Image                                            
-                                           </label>
-                                               <div class="col-lg-12">
-                                                <input type="file" class="form-control" id="user_image" name="user_image" placeholder="Last Name" >
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group row">         
-                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                                        <div class="bs-brand-wrapper rounded-3 bg-white d-flex align-items-center justify-content-center">
-                                            <img src="assets/img/author/client-1.jpg" alt="not found" class="img-fluid">
-                                        </div>
-                                    </div>
-                                        </div>
-                                    </div>
+                                <div class="row">
 
 
-                                   <div class="row">
-                                    <div class="col-lg-6">
-
-                                        <div class="form-group row">         
-                                            <label class="fw-semibold text-secondary mb-2">First Name
-                                               <span class="text-danger">*</span></label>
-                                               <div class="col-lg-12">
-                                                <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name" required="">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-
-                                        <div class="form-group row">         
-                                            <label class="fw-semibold text-secondary mb-2">Last Name
-                                               <span class="text-danger">*</span></label>
-                                               <div class="col-lg-12">
-                                                <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name" required="">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
+                                   
+                               
                                 <div class="form-group row">         
-                                    <label class="fw-semibold text-secondary mb-2">Email
+                                    <label class="fw-semibold text-secondary mb-2">Business No
                                        <span class="text-danger">*</span></label>
                                        <div class="col-lg-12">
-                                        <input type="text" class="form-control" id="val-email" name="val-email" placeholder="Your valid email..">
+                                        <input type="text" class="form-control" id="business_no" name="business_no" placeholder="Business No" required="">
                                     </div>
                                 </div>
 
-                                <div class="form-group row">         
-                                    <label class="fw-semibold text-secondary mb-2">Phone
+                                 <div class="form-group row">         
+                                    <label class="fw-semibold text-secondary mb-2">Articles Of Incorporation
                                        <span class="text-danger">*</span></label>
                                        <div class="col-lg-12">
-                                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" required="">
+                                        <input type="text" class="form-control" id="articles_of_incorporation" name="articles_of_incorporation" placeholder="Articles Of Incorporation" required="">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">         
-                                    <label class="fw-semibold text-secondary mb-2">Company name(optional)   </label>                                    
-                                </label>
+                                    <label class="fw-semibold text-secondary mb-2">Afc Loan
+                                       <span class="text-danger">*</span></label>
+                                       <div class="col-lg-12">
+                                        <input type="text" class="form-control" id="afc_loan" name="afc_loan" placeholder="Afc Loan" required="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">         
+                                    <label class="fw-semibold text-secondary mb-2">Dealer Name</label>
                                 <div class="col-lg-12">
-                                    <input type="text" class="form-control" id="company" name="company" placeholder="Company name">
+                                    <input type="text" class="form-control" id="dealer_name" name="dealer_name" placeholder="Dealer Name">
                                 </div>
                             </div>
 
                             <div class="form-group row">         
-                                <label class="fw-semibold text-secondary mb-2">Country / Region   <span class="text-danger">*</span></label>
+                                <label class="fw-semibold text-secondary mb-2">Business Address<span class="text-danger">*</span></label>
                                 <div class="col-lg-12">
-                                    <input type="text" class="form-control" id="country" name="country" placeholder="Company name" required="">
+                                    <input type="text" class="form-control" id="business_address" name="business_address" placeholder="Business Address" required="">
                                 </div>
                             </div>
 
                             <div class="form-group row">         
-                                <label class="fw-semibold text-secondary mb-2">Address       
-                                   <span class="text-danger">*</span></label>
-                                   <div class="col-lg-12">
-                                    <input type="text" class="form-control" id="address" name="address" placeholder="Address" required="">
+                                    <label class="fw-semibold text-secondary mb-2">Business Phone No
+                                       <span class="text-danger">*</span></label>
+                                       <div class="col-lg-12">
+                                        <input type="text" class="form-control" id="phone_no" name="phone_no" placeholder="Business Phone No">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="form-group row">         
-                                <label class="fw-semibold text-secondary mb-2">Post/ Zip Code       
-                                   <span class="text-danger">*</span></label>
-                                   <div class="col-lg-12">
-                                    <input type="text" class="form-control" id="zip_code" name="zip_code" placeholder="Post/ Zip Code" required="">
+                                <div class="form-group row">         
+                                    <label class="fw-semibold text-secondary mb-2">Business Email
+                                      </label>
+                                       <div class="col-lg-12">
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Business Email" >
+                                    </div>
                                 </div>
-                            </div>
-                            
+
 
                             <div class="row">
+                                    <div class="col-lg-6">
 
-                               
-                                
-                                
+                                        <div class="form-group row">         
+                                            <label class="fw-semibold text-secondary mb-2">GST Number
+                                               <span class="text-danger">*</span></label>
+                                               <div class="col-lg-12">
+                                                <input type="text" class="form-control" id="gst_number" name="gst_number" placeholder="GST Number" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+
+                                        <div class="form-group row">         
+                                            <label class="fw-semibold text-secondary mb-2">HST Number
+                                               <span class="text-danger">*</span></label>
+                                               <div class="col-lg-12">
+                                                <input type="text" class="form-control" id="hst_number" name="hst_number" placeholder="HST Number" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                           
+
+                            
+                            
+
+                            <div class="row">                                
                                
 
 

@@ -1,0 +1,10 @@
+li.mt-10.fw-500 {
+    margin-top: 10px !important;
+}
+
+a.btn.outline-btn.btn-md.d-block.active {
+    background: #FC0012;
+    color: #fff;
+    -webkit-box-shadow: 0px 10px 40px rgba(252, 0, 18, 0.3);
+    box-shadow: 0px 10px 40px rgba(252, 0, 18, 0.3);
+}
